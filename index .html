@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <header>My Note App</header>
+    <div class="tabs">
+        <button class="tab" onclick="changeTab('plans')">Plans</button>
+        <button class="tab" onclick="changeTab('reminder')">Reminder</button>
+        <button class="tab" onclick="changeTab('diary')">Diary</button>
+    </div>
+    <div id="tabContent" class="content">
+        <!-- Content will be dynamically inserted here based on the active tab -->
+    </div>
+    <!-- Modal structure for viewing note details -->
+    <div id="noteDetailModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="noteTitle"></h2>
+            <p id="noteContent"></p>
+            <p id="noteTimestamp"></p>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
