@@ -2,7 +2,7 @@
 
 **Simple-Diary** is a lightweight, private, and elegant digital notebook that runs entirely in your browser. It doesn't store your data on a server or database — everything is saved locally on your device, meaning **you own your thoughts**.
 
-> **Live Site:** [miynote.netlify.app](https://miynote.netlify.app)
+> **Live Site:** [miynote.netlify.app](https://miyapp.netlify.app)
 
 ---
 
