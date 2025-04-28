@@ -11,8 +11,6 @@
 - **Private by Design**  
   No servers. No sign-up. Everything is saved using your browser's **Local Storage**, so your notes are for your eyes only.
 
-- **Offline First**  
-  Works even without internet. Great for quick thoughts or personal journaling wherever you are.
 
 - **Tab-Based Organization**  
   Switch between different pages/sections easily — just like flipping through a real diary.
@@ -54,7 +52,7 @@ xdg-open index.html  # On Linux
 
 
 
-> No build tools or servers required. It’s pure frontend and works as-is.
+> No build tools or servers required. It’s pure frontend and works as-is. just html css js
 
 
 
